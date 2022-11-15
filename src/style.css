@@ -19,18 +19,16 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 600px;
+  width: 500px;
   background-color: transparent;
   backdrop-filter: blur(30px);
   border: 1.5px solid #4f5e35;
   box-shadow: #2c351e9d 7px 7px 0px;
 }
 
-header {
-  width: 100%;
-  font-size: 30px;
+h1 {
   text-align: center;
-  padding: 20px 10px;
+  padding: 50px 10px 20px;
   font-family: "Cousine", monospace;
 }
 
@@ -48,7 +46,7 @@ header {
 
 .controls {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 50px 10px;
 }
 
 .button {
@@ -60,24 +58,14 @@ header {
   width: 100%;
   font-size: 20px;
   font-family: "Cousine", monospace;
-  border: 1px solid #4f5e35;
-}
-
-.twitter {
-  background-color: #89b6d276;
-  text-decoration: none;
-  border: 1px solid #1e7fbb;
-  font-family: "Cousine", monospace;
-}
-
-.twitter:hover {
-  background-color: #a1cae376;
 }
 
 .new-quote {
   background-color: #c9c895;
   margin-bottom: 15px;
   font-family: "Cousine", monospace;
+  border: 1.5px solid #4f5e35;
+  transition: 0.2s;
 }
 
 .new-quote:hover {
@@ -90,11 +78,24 @@ header {
   cursor: not-allowed;
 }
 
+.twitter {
+  background-color: #89b6d276;
+  text-decoration: none;
+  border: 1.5px solid #1e7fbb;
+  font-family: "Cousine", monospace;
+  transition: 0.2s;
+}
+
+.twitter:hover {
+  background-color: #a1cae376;
+}
+
 .credits p {
-  font-size: 0.8rem;
+  font-size: 12px;
   text-align: center;
   padding-top: 20px;
   color: #4f5e3590;
+  font-family: "Cousine", monospace;
 }
 
 .credits a {
